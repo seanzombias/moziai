@@ -19,7 +19,7 @@ device = torch.device("cuda" if USE_CUDA else "cpu")
 
 #######################
 SERVER_IP = "127.0.0.1"
-SERVER_PORT = "6260"
+SERVER_PORT = "6060"
 SCENARIO_NAME = "fanqian12"
 simulate_compression = 4
 DURATION_INTERVAL = 30
