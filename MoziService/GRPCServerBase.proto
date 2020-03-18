@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+package GRPC;
+service gRPC {
+  rpc GrpcConnect (GrpcRequest) returns (GrpcReply) {}
+  rpc GrpcConnectStream (GrpcRequest) returns (stream GrpcReply) {}
+}
+
+message GrpcRequest {
+  string name = 1;
+}
+
+message GrpcReply {
+  string message = 1;
+  int32 length = 2;
+}

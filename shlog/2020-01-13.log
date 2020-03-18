@@ -1,0 +1,2 @@
+LEVEL:info USER:hsfw FILE:run.sh LINE:13 FUNC:create_vir_env DATE:2020-01-13 18:50:46 CONTENT: virtual env had been created
+LEVEL:info USER:hsfw FILE:run.sh LINE:13 FUNC:create_vir_env DATE:2020-01-13 18:55:19 CONTENT: virtual env had been created
